@@ -1,0 +1,21 @@
+{
+    "path_data": "data/celeba/img_align_celeba",
+    "augmentation": {"n_random_shifts_train": 20, "n_random_shifts_test": 10, "n_random_rotations_train": 20, "n_random_rotations_test": 10},
+    "path_scratch_train": "scratch_train",
+    "path_scratch_test": "scratch_test",
+    "path_scratch_inf": "scratch_inf",
+    "scratch_len": 100,
+    "path_save_model": "weights",
+    "batch_size_train": 16,
+    "batch_size_val": 16,
+    "batch_size_test": 20,
+    "device": "cuda",
+    "learning_rate": 0.0001,
+    "repeat_worst": "True",
+    "admixture_of_worse": 0.01,
+    "epochs_count_reset": "False",
+    "epochs_warmup": 1,
+    "epochs": 1,
+    "n_jobs": 4
+}
+
