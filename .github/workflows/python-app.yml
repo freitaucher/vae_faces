@@ -30,7 +30,7 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Check model:
       run: | 
-      python utils_model.py       
+        python utils_model.py       
     - name: Lint with flake8
       run: |
         # stop the build if there are Python syntax errors or undefined names
